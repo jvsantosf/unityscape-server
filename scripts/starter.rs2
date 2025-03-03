@@ -1,0 +1,18 @@
+@rs2_name[Starting in Guilenor]
+@rs2_description[Starter tutorial for the server!]
+<controller>
+$controller.stage:
+<p, trail_to(5213, 4012, 0)>
+<p, trail_remove>
+<p.controller, listen[npc_click]> {
+  if npc_click.id == 948:
+    <p.stage, complete>
+}
+$controller.stage:
+<p, trail_to(1213, 4212, 0)>
+<p, trail_remove>
+<p.controller, listen[object_click]> {
+  if object_click.id == 13210:
+    <p.stage, complete>
+}
+</controller>

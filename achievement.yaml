@@ -1,0 +1,34 @@
+bandos_killer:
+  key: bandos_killer
+  type: COMBAT_PVM
+  name: The Bandos Killer
+  description: Wise Old Man needs some help to clean a ice place, its full of Rockcrabs!
+    Talk with him to start this task.
+  hint: You can teleport to the island using the Teleport station
+  rewards: Win 72,000 XP in all melee combat skills (Defence, Attack, Strength, Constitution)
+  iconId: 4157
+
+  mainSelectionId: 19
+  mainSelectionIconId: 21
+
+  selectionIconId: 2
+
+  tabComponentId: 2
+  tabIconId: 4
+
+zamorak_killer:
+  key: zamorak_slayer
+  type: COMBAT_PVM
+  name: A way to stop ZAMORAK!
+  description: Zamorak and his guards are annoying the people of UnityScape, find a way to stop them!
+  hint: You can teleport to the island using the Teleport station
+  rewards: You will choice between boots that improve melee, ranged or mage stats
+  iconId: 4157
+
+  mainSelectionId: 22
+  mainSelectionIconId: 24
+
+  selectionIconId: 2
+
+  tabComponentId: 5
+  tabIconId: 7
